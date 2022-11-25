@@ -12,10 +12,7 @@ jobs:
 
 
     steps:
-      - name: 'before'
-        run: ls
-
       - uses: actions/checkout@v3
 
-      - name: 'after'
-        run: ls  
+      - name: 'login'
+        run: docker login --username salma0sama --password dckr_pat_u9MYbn0l4yp6VwNNCw9LP9kNbzY
