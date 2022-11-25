@@ -1,1 +1,9 @@
+on:
+  push:
+    branche: 
+      - master
 
+
+
+
+      
